@@ -19,7 +19,7 @@ Simple implement inference deep head pose ncnn version with high performance and
 ### Cmake project
   - In project root inside docker: `mkdir -p build && cd build
   - Cmake and build: `cmake ..` && `make`
-  - Run test: `./main`
+  - Run test: `./main "../models" "../images/input_head_image.jpg"`
  
   - Examples:
    
